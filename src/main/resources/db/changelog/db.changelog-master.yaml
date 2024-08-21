@@ -1,0 +1,16 @@
+databaseChangeLog:
+  - include:
+      file: changes/001-initial-schema.yaml
+      relativeToChangelogFile: true
+  - include:
+      file: changes/002-add-constraint.sql
+      relativeToChangelogFile: true
+  - include:
+      file: changes/003-sample-data.sql
+      relativeToChangelogFile: true
+  - include:
+      file: changes/004-add-valid-type-to-resources.sql
+      relativeToChangelogFile: true
+  - include:
+      file: changes/005-add-default-value-to-it-resource-status.sql
+      relativeToChangelogFile: true
